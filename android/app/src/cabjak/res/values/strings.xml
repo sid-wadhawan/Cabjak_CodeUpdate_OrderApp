@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_description">Book your ride</string>
+    <string name="app_intent_description">Add Location</string>
+    <string name="facebook_app_id">3110267969188108</string>
+      <string name="fb_login_protocol_scheme">fb3110267969188108</string>
+       <string name="google_api_key_id">AIzaSyAdJltTF477m-bjXZTwiOoKsnZgiE3owcs</string>
+         <string moduleConfig="true" name="CodePushDeploymentKey">AIzaSyDHPQM4OBs2I7ngqFOWk0Wk9Ke4AA034VI
+</string>
+</resources>

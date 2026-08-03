@@ -1,0 +1,165 @@
+Configuration on demand is an incubating feature.
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+It will be removed in version 8.0 of the Android Gradle plugin.
+Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+
+> Configure project :notifee_react-native
+:notifee_react-native @notifee/react-native found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@notifee/react-native
+:notifee_react-native package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@notifee/react-native/package.json
+:notifee_react-native:version set from package.json: 5.7.0 (5,7,0 - 5007000)
+:notifee_react-native:android.compileSdk using custom value: 36
+:notifee_react-native:android.targetSdk using custom value: 36
+:notifee_react-native:android.minSdk using custom value: 26
+:notifee_react-native:reactNativeAndroidDir /Users/sid/Desktop/cbk/cabjak_order/node_modules/react-native
+
+> Configure project :react-native-firebase_analytics
+:react-native-firebase_analytics package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/analytics/package.json
+:react-native-firebase_app package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_analytics:firebase.bom using default value: 32.8.1
+:react-native-firebase_analytics package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/analytics/package.json
+:react-native-firebase_analytics:version set from package.json: 19.3.0 (19,3,0 - 19003000)
+:react-native-firebase_analytics:android.compileSdk using custom value: 36
+:react-native-firebase_analytics:android.targetSdk using custom value: 36
+:react-native-firebase_analytics:android.minSdk using custom value: 26
+:react-native-firebase_analytics:reactNativeAndroidDir /Users/sid/Desktop/cbk/cabjak_order/node_modules/react-native
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:firebase.bom using default value: 32.8.1
+:react-native-firebase_app:play.play-services-auth using default value: 21.0.0
+:react-native-firebase_app package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_app:version set from package.json: 19.3.0 (19,3,0 - 19003000)
+:react-native-firebase_app:android.compileSdk using custom value: 36
+:react-native-firebase_app:android.targetSdk using custom value: 36
+:react-native-firebase_app:android.minSdk using custom value: 26
+:react-native-firebase_app:reactNativeAndroidDir /Users/sid/Desktop/cbk/cabjak_order/node_modules/react-native
+
+> Configure project :react-native-firebase_messaging
+:react-native-firebase_messaging package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_app package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/app/package.json
+:react-native-firebase_messaging:firebase.bom using default value: 32.8.1
+:react-native-firebase_messaging package.json found at /Users/sid/Desktop/cbk/cabjak_order/node_modules/@react-native-firebase/messaging/package.json
+:react-native-firebase_messaging:version set from package.json: 19.3.0 (19,3,0 - 19003000)
+:react-native-firebase_messaging:android.compileSdk using custom value: 36
+:react-native-firebase_messaging:android.targetSdk using custom value: 36
+:react-native-firebase_messaging:android.minSdk using custom value: 26
+:react-native-firebase_messaging:reactNativeAndroidDir /Users/sid/Desktop/cbk/cabjak_order/node_modules/react-native
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.11.0
+Gradle: 8.14.3
+
+> Task :projects
+
+Projects:
+
+------------------------------------------------------------
+Root project 'Runrun'
+------------------------------------------------------------
+
+Root project 'Runrun'
++--- Project ':app'
++--- Project ':appcenter'
++--- Project ':brooons_react-native-bluetooth-escpos-printer'
++--- Project ':heasy_react-native-sunmi-printer'
++--- Project ':invertase_react-native-apple-authentication'
++--- Project ':lottie-react-native'
++--- Project ':notifee_react-native'
++--- Project ':react-native-async-storage_async-storage'
++--- Project ':react-native-audio-record'
++--- Project ':react-native-audio-recorder-player'
++--- Project ':react-native-background-actions'
++--- Project ':react-native-background-timer'
++--- Project ':react-native-bluetooth-escpos-printer'
++--- Project ':react-native-cardview'
++--- Project ':react-native-color-matrix-image-filters'
++--- Project ':react-native-community_blur'
++--- Project ':react-native-community_clipboard'
++--- Project ':react-native-community_datetimepicker'
++--- Project ':react-native-community_netinfo'
++--- Project ':react-native-create-thumbnail'
++--- Project ':react-native-date-picker'
++--- Project ':react-native-device-country'
++--- Project ':react-native-device-info'
++--- Project ':react-native-document-picker'
++--- Project ':react-native-exit-app'
++--- Project ':react-native-fast-image'
++--- Project ':react-native-firebase_analytics'
++--- Project ':react-native-firebase_app'
++--- Project ':react-native-firebase_messaging'
++--- Project ':react-native-fs'
++--- Project ':react-native-geocoder'
++--- Project ':react-native-geolocation-service'
++--- Project ':react-native-gesture-handler'
++--- Project ':react-native-get-random-values'
++--- Project ':react-native-google-places'
++--- Project ':react-native-google-signin_google-signin'
++--- Project ':react-native-haptic-feedback'
++--- Project ':react-native-image-crop-picker'
++--- Project ':react-native-incall-manager'
++--- Project ':react-native-linear-gradient'
++--- Project ':react-native-localization'
++--- Project ':react-native-localize'
++--- Project ':react-native-maps'
++--- Project ':react-native-masked-view_masked-view'
++--- Project ':react-native-month-year-picker'
++--- Project ':react-native-orientation-locker'
++--- Project ':react-native-otp-verify'
++--- Project ':react-native-permissions'
++--- Project ':react-native-reanimated'
++--- Project ':react-native-restart'
++--- Project ':react-native-safe-area-context'
++--- Project ':react-native-screens'
++--- Project ':react-native-select-contact'
++--- Project ':react-native-share'
++--- Project ':react-native-sound'
++--- Project ':react-native-splash-screen'
++--- Project ':react-native-svg'
++--- Project ':react-native-vector-icons'
++--- Project ':react-native-video'
++--- Project ':react-native-video-cache'
++--- Project ':react-native-voice_voice'
++--- Project ':react-native-webview'
++--- Project ':rn-fetch-blob'
++--- Project ':sp-react-native-in-app-updates'
+\--- Project ':stripe_stripe-react-native'
+
+Included builds:
+
+\--- Included build ':gradle-plugin'
+
+To see a list of the tasks of a project, run gradlew <project-path>:tasks
+For example, try running gradlew :app:tasks
+
+[Incubating] Problems report is available at: file:///Users/sid/Desktop/cbk/cabjak_order/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 13s
+11 actionable tasks: 1 executed, 10 up-to-date

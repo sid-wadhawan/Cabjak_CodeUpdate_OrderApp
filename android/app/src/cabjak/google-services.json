@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "511931368464",
+    "project_id": "cabjakapp-d2d47",
+    "storage_bucket": "cabjakapp-d2d47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511931368464:android:46ef0b80fe4bc4ac727695",
+        "android_client_info": {
+          "package_name": "com.cabjak.OrderApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511931368464-0ehmundnh1rnjd63hqbmlfi6v5mm30nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cabjak.OrderApp",
+            "certificate_hash": "a88b766ebe08c535516406fab3741781973c03ad"
+          }
+        },
+        {
+          "client_id": "511931368464-4nrb5mmoevsvih6u8jjunam9vb1etf2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cabjak.OrderApp",
+            "certificate_hash": "6e35fcb20bda370ed0025e8c1df6109a03d09b6e"
+          }
+        },
+        {
+          "client_id": "511931368464-jbrl0up4e3dnqou3ef07lvapkodovohj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cabjak.OrderApp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "511931368464-3vor0mglkq1mi33ev9lg33hdfp3u95ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXqKw2Ie1FkMPr0kPcuHot5itMJG2aaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511931368464-3vor0mglkq1mi33ev9lg33hdfp3u95ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

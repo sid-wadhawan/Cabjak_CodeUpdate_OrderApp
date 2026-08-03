@@ -1,0 +1,521 @@
+Configuration on demand is an incubating feature.
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: DSL element 'dexOptions' is obsolete and should be removed.
+It will be removed in version 8.0 of the Android Gradle plugin.
+Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+
+> Task :app:tasks
+
+------------------------------------------------------------
+Tasks runnable from project ':app'
+------------------------------------------------------------
+
+Android tasks
+-------------
+androidDependencies - Displays the Android dependencies of the project.
+signingReport - Displays the signing info for the base and test modules
+sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+assemble - Assemble main outputs for all the variants.
+assembleAndroidTest - Assembles all the Test applications.
+assembleCabjak - Assembles main outputs for all Cabjak variants.
+assembleDebug - Assembles main outputs for all Debug variants.
+assembleDebugOptimized - Assembles main outputs for all DebugOptimized variants.
+assembleRelease - Assembles main outputs for all Release variants.
+assembleUnitTest - Assembles all the unit test applications.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildKotlinToolingMetadata - Build metadata json file containing information about the used Kotlin tooling
+buildNeeded - Assembles and tests this project and all projects it depends on.
+bundle - Assemble bundles for all the variants.
+bundleCabjak - Assembles bundles for all Cabjak variants.
+bundleDebug - Assembles bundles for all Debug variants.
+bundleDebugOptimized - Assembles bundles for all DebugOptimized variants.
+bundleRelease - Assembles bundles for all Release variants.
+clean - Deletes the build directory.
+compileCabjakDebugAndroidTestSources
+compileCabjakDebugOptimizedSources
+compileCabjakDebugOptimizedUnitTestSources
+compileCabjakDebugSources
+compileCabjakDebugUnitTestSources
+compileCabjakReleaseSources
+compileCabjakReleaseUnitTestSources
+
+Help tasks
+----------
+artifactTransforms - Displays the Artifact Transforms that can be executed in project ':app'.
+buildEnvironment - Displays all buildscript dependencies declared in project ':app'.
+dependencies - Displays all dependencies declared in project ':app'.
+dependencyInsight - Displays the insight into a specific dependency in project ':app'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of project ':app'.
+projects - Displays the sub-projects of project ':app'.
+properties - Displays the properties of project ':app'.
+resolvableConfigurations - Displays the configurations that can be resolved in project ':app'.
+tasks - Displays the tasks runnable from project ':app'.
+
+Install tasks
+-------------
+installCabjakDebug - Installs the Debug build for flavor Cabjak.
+installCabjakDebugAndroidTest - Installs the android (on device) tests for the CabjakDebug build.
+installCabjakDebugOptimized - Installs the DebugOptimized build for flavor Cabjak.
+installCabjakRelease - Installs the Release build for flavor Cabjak.
+uninstallAll - Uninstall all applications.
+uninstallCabjakDebug - Uninstalls the Debug build for flavor Cabjak.
+uninstallCabjakDebugAndroidTest - Uninstalls the android (on device) tests for the CabjakDebug build.
+uninstallCabjakDebugOptimized - Uninstalls the DebugOptimized build for flavor Cabjak.
+uninstallCabjakRelease - Uninstalls the Release build for flavor Cabjak.
+
+React tasks
+-----------
+createBundleCabjakDebugJsAndAssets
+createBundleCabjakDebugOptimizedJsAndAssets
+createBundleCabjakReleaseJsAndAssets
+generateAutolinkingNewArchitectureFiles
+generateAutolinkingPackageList
+generateReactNativeEntryPoint
+
+Verification tasks
+------------------
+check - Runs all checks.
+checkJetifier - Checks whether Jetifier is needed for the current project
+checkKotlinGradlePluginConfigurationErrors - Checks that Kotlin Gradle Plugin hasn't reported project configuration errors, failing otherwise. This task always runs before compileKotlin* or similar tasks.
+connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+connectedCabjakDebugAndroidTest - Installs and runs the tests for cabjakDebug on connected devices.
+connectedCheck - Runs all device checks on currently connected devices.
+deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+deviceCheck - Runs all device checks using Device Providers and Test Servers.
+lint - Runs lint on the default variant.
+lintCabjakDebug - Print text output from the corresponding lint report task
+lintCabjakDebugOptimized - Print text output from the corresponding lint report task
+lintCabjakRelease - Print text output from the corresponding lint report task
+lintFix - Runs lint on the default variant and applies any safe suggestions to the source code.
+test - Run unit tests for all variants.
+testCabjakDebugOptimizedUnitTest - Run unit tests for the cabjakDebugOptimized build.
+testCabjakDebugUnitTest - Run unit tests for the cabjakDebug build.
+testCabjakReleaseUnitTest - Run unit tests for the cabjakRelease build.
+updateLintBaseline - Updates the lint baseline using the default variant.
+
+Other tasks
+-----------
+analyzeCabjakDebugAndroidTestDependencies
+analyzeCabjakDebugDependencies
+analyzeCabjakDebugOptimizedDependencies
+analyzeCabjakDebugOptimizedUnitTestDependencies
+analyzeCabjakDebugUnitTestDependencies
+analyzeCabjakReleaseDependencies
+analyzeCabjakReleaseUnitTestDependencies
+asarToCompatSplitsForCabjakDebug
+asarToCompatSplitsForCabjakDebugOptimized
+asarToCompatSplitsForCabjakRelease
+assembleCabjakDebug - Assembles main output for variant cabjakDebug
+assembleCabjakDebugAndroidTest - Assembles main output for variant cabjakDebugAndroidTest
+assembleCabjakDebugOptimized - Assembles main output for variant cabjakDebugOptimized
+assembleCabjakDebugOptimizedUnitTest - Assembles main output for variant cabjakDebugOptimizedUnitTest
+assembleCabjakDebugUnitTest - Assembles main output for variant cabjakDebugUnitTest
+assembleCabjakRelease - Assembles main output for variant cabjakRelease
+assembleCabjakReleaseUnitTest - Assembles main output for variant cabjakReleaseUnitTest
+buildCabjakDebugOptimizedPreBundle
+buildCabjakDebugPreBundle
+buildCabjakReleasePreBundle
+buildCMakeDebug
+buildCMakeDebug[arm64-v8a]
+buildCMakeDebug[armeabi-v7a]
+buildCMakeDebug[x86]
+buildCMakeDebug[x86_64]
+buildCMakeRelease
+buildCMakeRelease[arm64-v8a]
+buildCMakeRelease[armeabi-v7a]
+buildCMakeRelease[x86]
+buildCMakeRelease[x86_64]
+buildCMakeRelWithDebInfo
+buildCMakeRelWithDebInfo[arm64-v8a]
+buildCMakeRelWithDebInfo[armeabi-v7a]
+buildCMakeRelWithDebInfo[x86]
+buildCMakeRelWithDebInfo[x86_64]
+bundleCabjakDebug - Assembles bundle for variant cabjakDebug
+bundleCabjakDebugClassesToCompileJar
+bundleCabjakDebugClassesToRuntimeJar
+bundleCabjakDebugOptimized - Assembles bundle for variant cabjakDebugOptimized
+bundleCabjakDebugOptimizedClassesToCompileJar
+bundleCabjakDebugOptimizedClassesToRuntimeJar
+bundleCabjakDebugOptimizedResources
+bundleCabjakDebugResources
+bundleCabjakRelease - Assembles bundle for variant cabjakRelease
+bundleCabjakReleaseClassesToCompileJar
+bundleCabjakReleaseClassesToRuntimeJar
+bundleCabjakReleaseResources
+checkCabjakDebugAarMetadata
+checkCabjakDebugAndroidTestAarMetadata
+checkCabjakDebugAndroidTestDuplicateClasses
+checkCabjakDebugDuplicateClasses
+checkCabjakDebugManifest
+checkCabjakDebugOptimizedAarMetadata
+checkCabjakDebugOptimizedDuplicateClasses
+checkCabjakDebugOptimizedManifest
+checkCabjakReleaseAarMetadata
+checkCabjakReleaseDuplicateClasses
+checkCabjakReleaseManifest
+collectCabjakReleaseDependencies
+compileCabjakDebugAndroidTestJavaWithJavac
+compileCabjakDebugAndroidTestKotlin - Compiles the cabjakDebugAndroidTest kotlin.
+compileCabjakDebugAndroidTestShaders
+compileCabjakDebugArtProfile
+compileCabjakDebugJavaWithJavac
+compileCabjakDebugKotlin - Compiles the cabjakDebug kotlin.
+compileCabjakDebugOptimizedArtProfile
+compileCabjakDebugOptimizedJavaWithJavac
+compileCabjakDebugOptimizedKotlin - Compiles the cabjakDebugOptimized kotlin.
+compileCabjakDebugOptimizedShaders
+compileCabjakDebugOptimizedUnitTestJavaWithJavac
+compileCabjakDebugOptimizedUnitTestKotlin - Compiles the cabjakDebugOptimizedUnitTest kotlin.
+compileCabjakDebugShaders
+compileCabjakDebugUnitTestJavaWithJavac
+compileCabjakDebugUnitTestKotlin - Compiles the cabjakDebugUnitTest kotlin.
+compileCabjakReleaseArtProfile
+compileCabjakReleaseJavaWithJavac
+compileCabjakReleaseKotlin - Compiles the cabjakRelease kotlin.
+compileCabjakReleaseShaders
+compileCabjakReleaseUnitTestJavaWithJavac
+compileCabjakReleaseUnitTestKotlin - Compiles the cabjakReleaseUnitTest kotlin.
+compileLint
+compileLintChecks
+components - Displays the components produced by project ':app'. [deprecated]
+compressCabjakDebugAndroidTestAssets
+compressCabjakDebugAssets
+compressCabjakDebugOptimizedAssets
+compressCabjakReleaseAssets
+configureCabjakReleaseDependencies
+configureCMakeDebug
+configureCMakeDebug[arm64-v8a]
+configureCMakeDebug[armeabi-v7a]
+configureCMakeDebug[x86]
+configureCMakeDebug[x86_64]
+configureCMakeRelease
+configureCMakeRelease[arm64-v8a]
+configureCMakeRelease[armeabi-v7a]
+configureCMakeRelease[x86]
+configureCMakeRelease[x86_64]
+configureCMakeRelWithDebInfo
+configureCMakeRelWithDebInfo[arm64-v8a]
+configureCMakeRelWithDebInfo[armeabi-v7a]
+configureCMakeRelWithDebInfo[x86]
+configureCMakeRelWithDebInfo[x86_64]
+consumeConfigAttr
+createCabjakDebugAndroidTestApkListingFileRedirect
+createCabjakDebugApkListingFileRedirect
+createCabjakDebugApksFromBundleListingFileRedirect
+createCabjakDebugBundleListingFileRedirect
+createCabjakDebugCompatibleScreenManifests
+createCabjakDebugOptimizedApkListingFileRedirect
+createCabjakDebugOptimizedApksFromBundleListingFileRedirect
+createCabjakDebugOptimizedBundleListingFileRedirect
+createCabjakDebugOptimizedCompatibleScreenManifests
+createCabjakReleaseApkListingFileRedirect
+createCabjakReleaseApksFromBundleListingFileRedirect
+createCabjakReleaseBundleListingFileRedirect
+createCabjakReleaseCompatibleScreenManifests
+createMockableJar
+dependentComponents - Displays the dependent components of components in project ':app'. [deprecated]
+desugarCabjakDebugAndroidTestFileDependencies
+desugarCabjakDebugFileDependencies
+desugarCabjakDebugOptimizedFileDependencies
+desugarCabjakReleaseFileDependencies
+dexBuilderCabjakDebug
+dexBuilderCabjakDebugAndroidTest
+dexBuilderCabjakDebugOptimized
+dexBuilderCabjakRelease
+externalNativeBuildCabjakDebug
+externalNativeBuildCabjakDebugOptimized
+externalNativeBuildCabjakRelease
+externalNativeBuildCleanCabjakDebug
+externalNativeBuildCleanCabjakDebugOptimized
+externalNativeBuildCleanCabjakRelease
+extractApksForCabjakDebug
+extractApksForCabjakDebugOptimized
+extractApksForCabjakRelease
+extractApksFromBundleForCabjakDebug
+extractApksFromBundleForCabjakDebugOptimized
+extractApksFromBundleForCabjakRelease
+extractCabjakDebugNativeDebugMetadata
+extractCabjakDebugNativeSymbolTables
+extractCabjakDebugOptimizedNativeDebugMetadata
+extractCabjakDebugOptimizedNativeSymbolTables
+extractCabjakReleaseNativeDebugMetadata
+extractCabjakReleaseNativeSymbolTables
+extractCabjakReleaseVersionControlInfo
+extractDeepLinksCabjakDebug
+extractDeepLinksCabjakDebugOptimized
+extractDeepLinksCabjakRelease
+extractProguardFiles
+generateCabjakDebugAndroidTestAssets
+generateCabjakDebugAndroidTestBuildConfig
+generateCabjakDebugAndroidTestLintModel
+generateCabjakDebugAndroidTestResources
+generateCabjakDebugAndroidTestResValues
+generateCabjakDebugAndroidTestSources
+generateCabjakDebugAssets
+generateCabjakDebugBuildConfig
+generateCabjakDebugFeatureMetadata
+generateCabjakDebugFeatureTransitiveDeps
+generateCabjakDebugLintModel
+generateCabjakDebugLintReportModel
+generateCabjakDebugManifestClass
+generateCabjakDebugOptimizedAssets
+generateCabjakDebugOptimizedBuildConfig
+generateCabjakDebugOptimizedFeatureMetadata
+generateCabjakDebugOptimizedFeatureTransitiveDeps
+generateCabjakDebugOptimizedLintModel
+generateCabjakDebugOptimizedLintReportModel
+generateCabjakDebugOptimizedManifestClass
+generateCabjakDebugOptimizedResources
+generateCabjakDebugOptimizedResValues
+generateCabjakDebugOptimizedSources
+generateCabjakDebugOptimizedUnitTestAssets
+generateCabjakDebugOptimizedUnitTestLintModel
+generateCabjakDebugOptimizedUnitTestResources
+generateCabjakDebugOptimizedUnitTestSources
+generateCabjakDebugResources
+generateCabjakDebugResValues
+generateCabjakDebugSources
+generateCabjakDebugUnitTestAssets
+generateCabjakDebugUnitTestLintModel
+generateCabjakDebugUnitTestResources
+generateCabjakDebugUnitTestSources
+generateCabjakReleaseAssets
+generateCabjakReleaseBuildConfig
+generateCabjakReleaseFeatureMetadata
+generateCabjakReleaseFeatureTransitiveDeps
+generateCabjakReleaseLintModel
+generateCabjakReleaseLintReportModel
+generateCabjakReleaseManifestClass
+generateCabjakReleaseResources
+generateCabjakReleaseResValues
+generateCabjakReleaseSources
+generateCabjakReleaseUnitTestAssets
+generateCabjakReleaseUnitTestLintModel
+generateCabjakReleaseUnitTestResources
+generateCabjakReleaseUnitTestSources
+generateCodegenArtifactsFromSchema
+generateCodegenSchemaFromJavaScript
+generateJsonModelCabjakDebug
+generateJsonModelCabjakDebugOptimized
+generateJsonModelCabjakRelease
+javaPreCompileCabjakDebug
+javaPreCompileCabjakDebugAndroidTest
+javaPreCompileCabjakDebugOptimized
+javaPreCompileCabjakDebugOptimizedUnitTest
+javaPreCompileCabjakDebugUnitTest
+javaPreCompileCabjakRelease
+javaPreCompileCabjakReleaseUnitTest
+lintAnalyzeCabjakDebug - Run lint analysis on the cabjakDebug component
+lintAnalyzeCabjakDebugAndroidTest - Run lint analysis on the cabjakDebugAndroidTest component
+lintAnalyzeCabjakDebugOptimized - Run lint analysis on the cabjakDebugOptimized component
+lintAnalyzeCabjakDebugOptimizedUnitTest - Run lint analysis on the cabjakDebugOptimizedUnitTest component
+lintAnalyzeCabjakDebugUnitTest - Run lint analysis on the cabjakDebugUnitTest component
+lintAnalyzeCabjakRelease - Run lint analysis on the cabjakRelease component
+lintAnalyzeCabjakReleaseUnitTest - Run lint analysis on the cabjakReleaseUnitTest component
+lintFixCabjakDebug - Fix lint on the cabjakDebug variant
+lintFixCabjakDebugOptimized - Fix lint on the cabjakDebugOptimized variant
+lintFixCabjakRelease - Fix lint on the cabjakRelease variant
+lintReportCabjakDebug - Run lint on the cabjakDebug variant
+lintReportCabjakDebugOptimized - Run lint on the cabjakDebugOptimized variant
+lintReportCabjakRelease - Run lint on the cabjakRelease variant
+makeApkFromBundleForCabjakDebug
+makeApkFromBundleForCabjakDebugOptimized
+makeApkFromBundleForCabjakRelease
+mapCabjakDebugAndroidTestSourceSetPaths
+mapCabjakDebugOptimizedSourceSetPaths
+mapCabjakDebugSourceSetPaths
+mapCabjakReleaseSourceSetPaths
+mergeCabjakDebugAndroidTestAssets
+mergeCabjakDebugAndroidTestGeneratedProguardFiles
+mergeCabjakDebugAndroidTestGlobalSynthetics
+mergeCabjakDebugAndroidTestJavaResource
+mergeCabjakDebugAndroidTestJniLibFolders
+mergeCabjakDebugAndroidTestNativeLibs
+mergeCabjakDebugAndroidTestResources
+mergeCabjakDebugAndroidTestShaders
+mergeCabjakDebugArtProfile
+mergeCabjakDebugAssets
+mergeCabjakDebugGeneratedProguardFiles
+mergeCabjakDebugGlobalSynthetics
+mergeCabjakDebugJavaResource
+mergeCabjakDebugJniLibFolders
+mergeCabjakDebugNativeDebugMetadata
+mergeCabjakDebugNativeLibs
+mergeCabjakDebugOptimizedArtProfile
+mergeCabjakDebugOptimizedAssets
+mergeCabjakDebugOptimizedGeneratedProguardFiles
+mergeCabjakDebugOptimizedGlobalSynthetics
+mergeCabjakDebugOptimizedJavaResource
+mergeCabjakDebugOptimizedJniLibFolders
+mergeCabjakDebugOptimizedNativeDebugMetadata
+mergeCabjakDebugOptimizedNativeLibs
+mergeCabjakDebugOptimizedResources
+mergeCabjakDebugOptimizedShaders
+mergeCabjakDebugOptimizedStartupProfile
+mergeCabjakDebugResources
+mergeCabjakDebugShaders
+mergeCabjakDebugStartupProfile
+mergeCabjakReleaseArtProfile
+mergeCabjakReleaseAssets
+mergeCabjakReleaseGeneratedProguardFiles
+mergeCabjakReleaseGlobalSynthetics
+mergeCabjakReleaseJavaResource
+mergeCabjakReleaseJniLibFolders
+mergeCabjakReleaseNativeDebugMetadata
+mergeCabjakReleaseNativeLibs
+mergeCabjakReleaseResources
+mergeCabjakReleaseShaders
+mergeCabjakReleaseStartupProfile
+mergeDexCabjakRelease
+mergeExtDexCabjakDebug
+mergeExtDexCabjakDebugAndroidTest
+mergeExtDexCabjakDebugOptimized
+mergeExtDexCabjakRelease
+mergeLibDexCabjakDebug
+mergeLibDexCabjakDebugAndroidTest
+mergeLibDexCabjakDebugOptimized
+mergeProjectDexCabjakDebug
+mergeProjectDexCabjakDebugAndroidTest
+mergeProjectDexCabjakDebugOptimized
+model - Displays the configuration model of project ':app'. [deprecated]
+optimizeCabjakReleaseResources
+packageCabjakDebug
+packageCabjakDebugAndroidTest
+packageCabjakDebugBundle
+packageCabjakDebugOptimized
+packageCabjakDebugOptimizedBundle
+packageCabjakDebugOptimizedResources
+packageCabjakDebugOptimizedUniversalApk
+packageCabjakDebugResources
+packageCabjakDebugUniversalApk
+packageCabjakRelease
+packageCabjakReleaseBundle
+packageCabjakReleaseResources
+packageCabjakReleaseUniversalApk
+parseCabjakDebugIntegrityConfig
+parseCabjakDebugLocalResources
+parseCabjakDebugOptimizedIntegrityConfig
+parseCabjakDebugOptimizedLocalResources
+parseCabjakReleaseIntegrityConfig
+parseCabjakReleaseLocalResources
+preBuild
+preCabjakDebugAndroidTestBuild
+preCabjakDebugBuild
+preCabjakDebugOptimizedBuild
+preCabjakDebugOptimizedUnitTestBuild
+preCabjakDebugUnitTestBuild
+preCabjakReleaseBuild
+preCabjakReleaseUnitTestBuild
+prepareLintJarForPublish
+processApplicationManifestCabjakDebugForBundle
+processApplicationManifestCabjakDebugOptimizedForBundle
+processApplicationManifestCabjakReleaseForBundle
+processCabjakDebugAndroidTestJavaRes
+processCabjakDebugAndroidTestManifest
+processCabjakDebugAndroidTestResources
+processCabjakDebugGoogleServices
+processCabjakDebugJavaRes
+processCabjakDebugMainManifest
+processCabjakDebugManifest
+processCabjakDebugManifestForPackage
+processCabjakDebugOptimizedGoogleServices
+processCabjakDebugOptimizedJavaRes
+processCabjakDebugOptimizedMainManifest
+processCabjakDebugOptimizedManifest
+processCabjakDebugOptimizedManifestForPackage
+processCabjakDebugOptimizedResources
+processCabjakDebugOptimizedUnitTestJavaRes
+processCabjakDebugResources
+processCabjakDebugUnitTestJavaRes
+processCabjakReleaseGoogleServices
+processCabjakReleaseJavaRes
+processCabjakReleaseMainManifest
+processCabjakReleaseManifest
+processCabjakReleaseManifestForPackage
+processCabjakReleaseResources
+processCabjakReleaseUnitTestJavaRes
+processManifestCabjakDebugForFeature
+processManifestCabjakDebugOptimizedForFeature
+processManifestCabjakReleaseForFeature
+produceCabjakDebugBundleIdeListingFile
+produceCabjakDebugOptimizedBundleIdeListingFile
+produceCabjakReleaseBundleIdeListingFile
+resolveConfigAttr
+sdkCabjakReleaseDependencyData
+signCabjakDebugBundle
+signCabjakDebugOptimizedBundle
+signCabjakReleaseBundle
+signingConfigWriterCabjakDebug
+signingConfigWriterCabjakDebugAndroidTest
+signingConfigWriterCabjakDebugOptimized
+signingConfigWriterCabjakRelease
+stripCabjakDebugAndroidTestDebugSymbols
+stripCabjakDebugDebugSymbols
+stripCabjakDebugOptimizedDebugSymbols
+stripCabjakReleaseDebugSymbols
+updateLintBaselineCabjakDebug - Update the lint baseline using the cabjakDebug variant
+updateLintBaselineCabjakDebugOptimized - Update the lint baseline using the cabjakDebugOptimized variant
+updateLintBaselineCabjakRelease - Update the lint baseline using the cabjakRelease variant
+validateSigningCabjakDebug
+validateSigningCabjakDebugAndroidTest
+validateSigningCabjakDebugOptimized
+validateSigningCabjakRelease
+writeCabjakDebugAndroidTestSigningConfigVersions
+writeCabjakDebugApplicationId
+writeCabjakDebugAppMetadata
+writeCabjakDebugModuleMetadata
+writeCabjakDebugOptimizedApplicationId
+writeCabjakDebugOptimizedAppMetadata
+writeCabjakDebugOptimizedModuleMetadata
+writeCabjakDebugOptimizedSigningConfigVersions
+writeCabjakDebugSigningConfigVersions
+writeCabjakReleaseApplicationId
+writeCabjakReleaseAppMetadata
+writeCabjakReleaseModuleMetadata
+writeCabjakReleaseSigningConfigVersions
+zipApksForCabjakDebug
+zipApksForCabjakDebugOptimized
+zipApksForCabjakRelease
+
+Rules
+-----
+Pattern: clean<TaskName>: Cleans the output files of a task.
+Pattern: build<ConfigurationName>: Assembles the artifacts of a configuration.
+
+[Incubating] Problems report is available at: file:///Users/sid/Desktop/cbk/cabjak_order/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 838ms
+11 actionable tasks: 1 executed, 10 up-to-date

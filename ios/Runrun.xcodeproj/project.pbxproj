@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A63B1B02B9F0CD900080615 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		3A63B1B12B9F0CD900080615 /* Royo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4679626A7F27500D378D5 /* Royo.swift */; };
+		3A63B1B22B9F0CD900080615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3A63B1B62B9F0CD900080615 /* Eina02-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8455CA3826DFBC2200C27F72 /* Eina02-Regular.ttf */; };
+		3A63B1B72B9F0CD900080615 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78C2681E47000CC5BA2 /* SFProDisplay-Regular.ttf */; };
+		3A63B1BB2B9F0CD900080615 /* Futura-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7902681E47100CC5BA2 /* Futura-Medium.ttf */; };
+		3A63B1BC2B9F0CD900080615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		3A63B1BE2B9F0CD900080615 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 844FDD1E2673989300C16835 /* CircularStd-Book.otf */; };
+		3A63B1BF2B9F0CD900080615 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8496BC0726F1B862001AAB4C /* Metropolis-Bold.otf */; };
+		3A63B1C02B9F0CD900080615 /* Futura Hv BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78E2681E47100CC5BA2 /* Futura Hv BT.ttf */; };
+		3A63B1C12B9F0CD900080615 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78D2681E47000CC5BA2 /* SFProText-Regular.ttf */; };
+		3A63B1C32B9F0CD900080615 /* SFProText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78F2681E47100CC5BA2 /* SFProText-SemiBold.ttf */; };
+		3A63B1C42B9F0CD900080615 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7942681E47100CC5BA2 /* SFProText-Medium.ttf */; };
+		3A63B1C62B9F0CD900080615 /* notification.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84D1CDDD2703529C00C05E36 /* notification.wav */; };
+		3A63B1C72B9F0CD900080615 /* Plists in Resources */ = {isa = PBXBuildFile; fileRef = 84DD36D82653D9EF00E2097D /* Plists */; };
+		3A63B1C82B9F0CD900080615 /* Futura-Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7922681E47100CC5BA2 /* Futura-Normal.ttf */; };
+		3A63B1C92B9F0CD900080615 /* Eina02-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8455CA3626DFBC2200C27F72 /* Eina02-Bold.ttf */; };
+		3A63B1CA2B9F0CD900080615 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7932681E47100CC5BA2 /* Futura-Book.ttf */; };
+		3A63B1CB2B9F0CD900080615 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 844FDD1D2673989300C16835 /* CircularStd-Medium.otf */; };
+		3A63B1CC2B9F0CD900080615 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8496BC0626F1B861001AAB4C /* Metropolis-SemiBold.otf */; };
+		3A63B1CD2B9F0CD900080615 /* FuturaBT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA78B2681E47000CC5BA2 /* FuturaBT-Heavy.ttf */; };
+		3A63B1CE2B9F0CD900080615 /* CircularStd-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */; };
+		3A63B1CF2B9F0CD900080615 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8496BC0526F1B860001AAB4C /* Metropolis-Regular.otf */; };
+		3A63B1D02B9F0CD900080615 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 846DA7912681E47100CC5BA2 /* SFProText-Bold.ttf */; };
+		3A63B1D22B9F0CD900080615 /* Eina02-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8455CA3726DFBC2200C27F72 /* Eina02-SemiBold.ttf */; };
+		3A63B1DF2B9F0E7500080615 /* Cabjak(Development).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A63B1DE2B9F0E7300080615 /* Cabjak(Development).xcconfig */; };
+		3A63B1E12B9F0EF700080615 /* Cabjak(production).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3A63B1E02B9F0EF600080615 /* Cabjak(production).xcconfig */; };
+		3A63B1E42B9F120800080615 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A63B1E22B9F11FC00080615 /* Images.xcassets */; };
+		3A63B1E52B9F120800080615 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A63B1E32B9F120500080615 /* GoogleService-Info.plist */; };
+		8CF89F2DB5722489C10DA416 /* libPods-available_pods-Cabjak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A204A990249FEE0F208EAE6 /* libPods-available_pods-Cabjak.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0020370627BF956100D99F30 /* Onscart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Onscart.entitlements; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RunrunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunrunTests.m; sourceTree = "<group>"; };
+		0D5F1F28259CCFD8F5FD54C2 /* Pods-available_pods-Cabjak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Cabjak.release.xcconfig"; path = "Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Runrun/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Runrun/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Runrun/main.m; sourceTree = "<group>"; };
+		3A63B1DA2B9F0CD900080615 /* Cabjak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabjak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A63B1DE2B9F0E7300080615 /* Cabjak(Development).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Cabjak(Development).xcconfig"; sourceTree = "<group>"; };
+		3A63B1E02B9F0EF600080615 /* Cabjak(production).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Cabjak(production).xcconfig"; sourceTree = "<group>"; };
+		3A63B1E22B9F11FC00080615 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A63B1E32B9F120500080615 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DDBD8F02BB54BB1008CB63F /* Cabjak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cabjak.entitlements; sourceTree = "<group>"; };
+		64CE8BC42BB2E19700B78F13 /* CabjakRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CabjakRelease.entitlements; sourceTree = "<group>"; };
+		76804BEC269C14AB007926EE /* Runrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Runrun.entitlements; path = Runrun/Runrun.entitlements; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Runrun/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842A82352D806AF20087DBFC /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Runrun/AppDelegate.mm; sourceTree = "<group>"; };
+		844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.ttf"; sourceTree = "<group>"; };
+		844FDD1D2673989300C16835 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		844FDD1E2673989300C16835 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		8455CA3626DFBC2200C27F72 /* Eina02-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eina02-Bold.ttf"; sourceTree = "<group>"; };
+		8455CA3726DFBC2200C27F72 /* Eina02-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eina02-SemiBold.ttf"; sourceTree = "<group>"; };
+		8455CA3826DFBC2200C27F72 /* Eina02-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eina02-Regular.ttf"; sourceTree = "<group>"; };
+		846DA78B2681E47000CC5BA2 /* FuturaBT-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FuturaBT-Heavy.ttf"; path = "../../src/assets/fonts/FuturaBT-Heavy.ttf"; sourceTree = "<group>"; };
+		846DA78C2681E47000CC5BA2 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProDisplay-Regular.ttf"; path = "../../src/assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		846DA78D2681E47000CC5BA2 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Regular.ttf"; path = "../../src/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		846DA78E2681E47100CC5BA2 /* Futura Hv BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura Hv BT.ttf"; path = "../../src/assets/fonts/Futura Hv BT.ttf"; sourceTree = "<group>"; };
+		846DA78F2681E47100CC5BA2 /* SFProText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-SemiBold.ttf"; path = "../../src/assets/fonts/SFProText-SemiBold.ttf"; sourceTree = "<group>"; };
+		846DA7902681E47100CC5BA2 /* Futura-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura-Medium.ttf"; path = "../../src/assets/fonts/Futura-Medium.ttf"; sourceTree = "<group>"; };
+		846DA7912681E47100CC5BA2 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Bold.ttf"; path = "../../src/assets/fonts/SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		846DA7922681E47100CC5BA2 /* Futura-Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura-Normal.ttf"; path = "../../src/assets/fonts/Futura-Normal.ttf"; sourceTree = "<group>"; };
+		846DA7932681E47100CC5BA2 /* Futura-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Futura-Book.ttf"; path = "../../src/assets/fonts/Futura-Book.ttf"; sourceTree = "<group>"; };
+		846DA7942681E47100CC5BA2 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFProText-Medium.ttf"; path = "../../src/assets/fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		8496BC0526F1B860001AAB4C /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		8496BC0626F1B861001AAB4C /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		8496BC0726F1B862001AAB4C /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		84D1CDDD2703529C00C05E36 /* notification.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notification.wav; sourceTree = "<group>"; };
+		84DD36D82653D9EF00E2097D /* Plists */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Plists; path = Runrun/Plists; sourceTree = "<group>"; };
+		84DF99B62A5405F100F09B24 /* MoveeCab(Development).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MoveeCab(Development).xcconfig"; sourceTree = "<group>"; };
+		84DF99B92A54061700F09B24 /* MoveeCab(Production).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "MoveeCab(Production).xcconfig"; sourceTree = "<group>"; };
+		84DF99BB2A54062B00F09B24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DF99BD2A54066A00F09B24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84DF9A7C2A54538900F09B24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DF9A7D2A54538900F09B24 /* URang(Development).xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "URang(Development).xcconfig"; sourceTree = "<group>"; };
+		84DF9A7E2A54538900F09B24 /* URang(Production).xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "URang(Production).xcconfig"; sourceTree = "<group>"; };
+		84DF9A7F2A54538A00F09B24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84EA41CC26393E950078E919 /* libRNGoogleSignin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGoogleSignin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EA41CE26393EA70078E919 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		84EA41D026393EB30078E919 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		84EA41D226393EC40078E919 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84EA41D426393EE20078E919 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		84F4678E26A7F27400D378D5 /* Runrun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runrun-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4678F26A7F27400D378D5 /* RoyoOrder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoyoOrder-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679026A7F27400D378D5 /* Tranzit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tranzit-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679126A7F27400D378D5 /* Hmoobhub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hmoobhub-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679226A7F27400D378D5 /* Capcorp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capcorp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679326A7F27400D378D5 /* Masa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masa-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679426A7F27400D378D5 /* Yogo Food-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yogo Food-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679526A7F27400D378D5 /* BottomsUp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BottomsUp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84F4679626A7F27500D378D5 /* Royo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Royo.swift; sourceTree = "<group>"; };
+		8A204A990249FEE0F208EAE6 /* libPods-available_pods-Cabjak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-available_pods-Cabjak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE064785D74F82253392E11B /* Pods-available_pods-Cabjak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-available_pods-Cabjak.debug.xcconfig"; path = "Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A63B1B32B9F0CD900080615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF89F2DB5722489C10DA416 /* libPods-available_pods-Cabjak.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* RunrunTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* RunrunTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = RunrunTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		104E1AA0283B6CB700F6061D /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Runrun */ = {
+			isa = PBXGroup;
+			children = (
+				76804BEC269C14AB007926EE /* Runrun.entitlements */,
+				7647BC0A269C09D9003AC88C /* Entitlements */,
+				844FDD0F267397EF00C16835 /* Fonts */,
+				844804B42653CF490050AA67 /* Configs */,
+				84DD36D82653D9EF00E2097D /* Plists */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Runrun;
+			sourceTree = "<group>";
+		};
+		293CCC036299F75712B8E1E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE064785D74F82253392E11B /* Pods-available_pods-Cabjak.debug.xcconfig */,
+				0D5F1F28259CCFD8F5FD54C2 /* Pods-available_pods-Cabjak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84EA41D426393EE20078E919 /* libz.tbd */,
+				84EA41D226393EC40078E919 /* SystemConfiguration.framework */,
+				84EA41D026393EB30078E919 /* SafariServices.framework */,
+				84EA41CE26393EA70078E919 /* AddressBook.framework */,
+				84EA41CC26393E950078E919 /* libRNGoogleSignin.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				8A204A990249FEE0F208EAE6 /* libPods-available_pods-Cabjak.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A63B1DD2B9F0DD800080615 /* Cabjak */ = {
+			isa = PBXGroup;
+			children = (
+				3A63B1E32B9F120500080615 /* GoogleService-Info.plist */,
+				3A63B1E22B9F11FC00080615 /* Images.xcassets */,
+				3A63B1DE2B9F0E7300080615 /* Cabjak(Development).xcconfig */,
+				3A63B1E02B9F0EF600080615 /* Cabjak(production).xcconfig */,
+			);
+			path = Cabjak;
+			sourceTree = "<group>";
+		};
+		7647BC0A269C09D9003AC88C /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				842A82352D806AF20087DBFC /* AppDelegate.mm */,
+				3DDBD8F02BB54BB1008CB63F /* Cabjak.entitlements */,
+				64CE8BC42BB2E19700B78F13 /* CabjakRelease.entitlements */,
+				84F4679526A7F27400D378D5 /* BottomsUp-Bridging-Header.h */,
+				84F4679226A7F27400D378D5 /* Capcorp-Bridging-Header.h */,
+				84F4679126A7F27400D378D5 /* Hmoobhub-Bridging-Header.h */,
+				84F4679326A7F27400D378D5 /* Masa-Bridging-Header.h */,
+				84F4678F26A7F27400D378D5 /* RoyoOrder-Bridging-Header.h */,
+				84F4678E26A7F27400D378D5 /* Runrun-Bridging-Header.h */,
+				84F4679026A7F27400D378D5 /* Tranzit-Bridging-Header.h */,
+				84F4679426A7F27400D378D5 /* Yogo Food-Bridging-Header.h */,
+				84F4679626A7F27500D378D5 /* Royo.swift */,
+				84D1CDDD2703529C00C05E36 /* notification.wav */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				293CCC036299F75712B8E1E3 /* Pods */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				841D9D5B26A6999600324021 /* Recovered References */,
+				D65CC1AD79C546A3A311AA2C /* Resources */,
+				104E1AA0283B6CB700F6061D /* Resources-iPad */,
+				13B07FAE1A68108700A75B9A /* Runrun */,
+				00E356EF1AD99517003FC87E /* RunrunTests */,
+				0020370627BF956100D99F30 /* Onscart.entitlements */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A63B1DA2B9F0CD900080615 /* Cabjak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841D9D5B26A6999600324021 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				84DF99BB2A54062B00F09B24 /* Images.xcassets */,
+				84DF99B62A5405F100F09B24 /* MoveeCab(Development).xcconfig */,
+				84DF99B92A54061700F09B24 /* MoveeCab(Production).xcconfig */,
+				84DF99BD2A54066A00F09B24 /* GoogleService-Info.plist */,
+				84DF9A7C2A54538900F09B24 /* Images.xcassets */,
+				84DF9A7D2A54538900F09B24 /* URang(Development).xcconfig */,
+				84DF9A7F2A54538A00F09B24 /* GoogleService-Info.plist */,
+				84DF9A7E2A54538900F09B24 /* URang(Production).xcconfig */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		844804B42653CF490050AA67 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				3A63B1DD2B9F0DD800080615 /* Cabjak */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		844FDD0F267397EF00C16835 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8496BC0726F1B862001AAB4C /* Metropolis-Bold.otf */,
+				8496BC0526F1B860001AAB4C /* Metropolis-Regular.otf */,
+				8496BC0626F1B861001AAB4C /* Metropolis-SemiBold.otf */,
+				8455CA3626DFBC2200C27F72 /* Eina02-Bold.ttf */,
+				8455CA3826DFBC2200C27F72 /* Eina02-Regular.ttf */,
+				8455CA3726DFBC2200C27F72 /* Eina02-SemiBold.ttf */,
+				846DA78E2681E47100CC5BA2 /* Futura Hv BT.ttf */,
+				846DA7932681E47100CC5BA2 /* Futura-Book.ttf */,
+				846DA7902681E47100CC5BA2 /* Futura-Medium.ttf */,
+				846DA7922681E47100CC5BA2 /* Futura-Normal.ttf */,
+				846DA78B2681E47000CC5BA2 /* FuturaBT-Heavy.ttf */,
+				846DA78C2681E47000CC5BA2 /* SFProDisplay-Regular.ttf */,
+				846DA7912681E47100CC5BA2 /* SFProText-Bold.ttf */,
+				846DA7942681E47100CC5BA2 /* SFProText-Medium.ttf */,
+				846DA78D2681E47000CC5BA2 /* SFProText-Regular.ttf */,
+				846DA78F2681E47100CC5BA2 /* SFProText-SemiBold.ttf */,
+				844FDD1C2673989300C16835 /* CircularStd-Bold.ttf */,
+				844FDD1E2673989300C16835 /* CircularStd-Book.otf */,
+				844FDD1D2673989300C16835 /* CircularStd-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D65CC1AD79C546A3A311AA2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A63B1AC2B9F0CD900080615 /* Cabjak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A63B1D72B9F0CD900080615 /* Build configuration list for PBXNativeTarget "Cabjak" */;
+			buildPhases = (
+				86138B15F7691011547100D8 /* [CP] Check Pods Manifest.lock */,
+				3A63B1AE2B9F0CD900080615 /* Start Packager */,
+				3A63B1AF2B9F0CD900080615 /* Sources */,
+				3A63B1B32B9F0CD900080615 /* Frameworks */,
+				3A63B1B52B9F0CD900080615 /* Resources */,
+				3A63B1D32B9F0CD900080615 /* Bundle React Native code and images */,
+				3A63B1D42B9F0CD900080615 /* Run Script */,
+				160E4A41FB2BE8AC1C8B9145 /* [CP] Embed Pods Frameworks */,
+				E65029D8F61FB4AD3986D2FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cabjak;
+			productName = Runrun;
+			productReference = 3A63B1DA2B9F0CD900080615 /* Cabjak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Runrun" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A63B1AC2B9F0CD900080615 /* Cabjak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A63B1B52B9F0CD900080615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A63B1B62B9F0CD900080615 /* Eina02-Regular.ttf in Resources */,
+				3A63B1E42B9F120800080615 /* Images.xcassets in Resources */,
+				3A63B1B72B9F0CD900080615 /* SFProDisplay-Regular.ttf in Resources */,
+				3A63B1BB2B9F0CD900080615 /* Futura-Medium.ttf in Resources */,
+				3A63B1E12B9F0EF700080615 /* Cabjak(production).xcconfig in Resources */,
+				3A63B1E52B9F120800080615 /* GoogleService-Info.plist in Resources */,
+				3A63B1BC2B9F0CD900080615 /* LaunchScreen.storyboard in Resources */,
+				3A63B1BE2B9F0CD900080615 /* CircularStd-Book.otf in Resources */,
+				3A63B1BF2B9F0CD900080615 /* Metropolis-Bold.otf in Resources */,
+				3A63B1C02B9F0CD900080615 /* Futura Hv BT.ttf in Resources */,
+				3A63B1C12B9F0CD900080615 /* SFProText-Regular.ttf in Resources */,
+				3A63B1C32B9F0CD900080615 /* SFProText-SemiBold.ttf in Resources */,
+				3A63B1C42B9F0CD900080615 /* SFProText-Medium.ttf in Resources */,
+				3A63B1DF2B9F0E7500080615 /* Cabjak(Development).xcconfig in Resources */,
+				3A63B1C62B9F0CD900080615 /* notification.wav in Resources */,
+				3A63B1C72B9F0CD900080615 /* Plists in Resources */,
+				3A63B1C82B9F0CD900080615 /* Futura-Normal.ttf in Resources */,
+				3A63B1C92B9F0CD900080615 /* Eina02-Bold.ttf in Resources */,
+				3A63B1CA2B9F0CD900080615 /* Futura-Book.ttf in Resources */,
+				3A63B1CB2B9F0CD900080615 /* CircularStd-Medium.otf in Resources */,
+				3A63B1CC2B9F0CD900080615 /* Metropolis-SemiBold.otf in Resources */,
+				3A63B1CD2B9F0CD900080615 /* FuturaBT-Heavy.ttf in Resources */,
+				3A63B1CE2B9F0CD900080615 /* CircularStd-Bold.ttf in Resources */,
+				3A63B1CF2B9F0CD900080615 /* Metropolis-Regular.otf in Resources */,
+				3A63B1D02B9F0CD900080615 /* SFProText-Bold.ttf in Resources */,
+				3A63B1D22B9F0CD900080615 /* Eina02-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160E4A41FB2BE8AC1C8B9145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A63B1AE2B9F0CD900080615 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A63B1D32B9F0CD900080615 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=/opt/homebrew/opt/node@20/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		3A63B1D42B9F0CD900080615 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-frameworks.sh\"\n";
+		};
+		86138B15F7691011547100D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-available_pods-Cabjak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65029D8F61FB4AD3986D2FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-available_pods-Cabjak/Pods-available_pods-Cabjak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A63B1AF2B9F0CD900080615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A63B1B02B9F0CD900080615 /* AppDelegate.m in Sources */,
+				3A63B1B12B9F0CD900080615 /* Royo.swift in Sources */,
+				3A63B1B22B9F0CD900080615 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A63B1D82B9F0CD900080615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A63B1DE2B9F0E7300080615 /* Cabjak(Development).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Cabjak.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 7PHCLA5UV6;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(PROJECT_APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabjak.OrderApp;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "$(PROJECT_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_DEEPLINK = "${PROJECT_DEEPLINK}";
+				PROJECT_ENTITLEMENT = "";
+				PROJECT_PLIST = "$(PROJECT_PLIST)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyoOrder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3A63B1D92B9F0CD900080615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A63B1E02B9F0EF600080615 /* Cabjak(production).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CabjakRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(PROJECT_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = 7PHCLA5UV6;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(PROJECT_APP_VERSION)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cabjak.OrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROJECT_DEEPLINK = "${PROJECT_DEEPLINK}";
+				PROJECT_ENTITLEMENT = "";
+				PROJECT_PLIST = "$(PROJECT_PLIST)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyoOrder-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_SWIFT_FLAGS = "";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Runrun/Plists/$(PROJECT_PLIST).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_SWIFT_FLAGS = "";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A63B1D72B9F0CD900080615 /* Build configuration list for PBXNativeTarget "Cabjak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A63B1D82B9F0CD900080615 /* Debug */,
+				3A63B1D92B9F0CD900080615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Runrun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
